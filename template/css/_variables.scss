@@ -1,0 +1,130 @@
+//// variables used in template
+
+// fonts
+$fonts_import: 'https://fonts.googleapis.com/css2?family=Kanit&family=Roboto+Mono:wght@300;400&family=Roboto:wght@300;400&display=swap';
+
+/*
+font-family: 'Kanit', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto', sans-serif;
+*/
+
+/// nav tabs and subtabs
+$nav_tabs_font_family: 'Roboto Mono', monospace;
+$nav_tabs_font_weight: 300;
+$nav_tabs_font_size: calc(.7rem + .5vw);
+$nav_tabs_font_size_mobile: 1.2rem;
+$nav_tabs_font_case: none;
+
+$nav_subtabs_font_family: $nav_tabs_font_family;
+$nav_subtabs_font_weight: $nav_tabs_font_weight;
+$nav_subtabs_font_size: calc(.6rem + .5vw);
+$nav_subtabs_font_case: $nav_tabs_font_case;
+
+/// titles
+$h1_font_family: 'Kanit', sans-serif;
+$h1_font_weight: 400;
+$h1_font_size: calc(2rem + 1.5vw);
+$h1_font_case: none;
+
+$h2_font_family: $h1_font_family;
+$h2_font_weight: $h1_font_weight;
+$h2_font_size: calc(1.4rem + 1.5vw);
+$h2_font_case: none;
+
+$h3456_font_family: 'Roboto Mono', monospace;
+$h3456_font_weight: 400;
+$h3456_font_size: calc(1rem + 1vw);
+$h3456_font_case: none;
+
+/// text
+$p_font_family: 'Roboto', sans-serif;
+$p_font_weight: 400;
+$p_font_size: 1.2rem;
+$p_font_size_991: 1.15rem;
+$p_font_size_767: 1.05rem;
+
+/// buttons
+$btns_font_family: 'Kanit', sans-serif;
+$btns_font_weight: 700;
+$btns_font_size: 1.1rem;
+$btns_font_case: uppercase;
+$btns_padding: 10px 30px;
+$btns_border_radius: 10px;
+$btns_font_size_991: 1.05rem;
+$btns_font_size_767: 1rem;
+
+// .a-btn-1 style
+$btn_1_bg_color: #5fbd42;
+$btn_1_border: 2px solid #5fbd42;
+$btn_1_color: #111;
+
+$btn_1_bg_color_hover: #111;
+$btn_1_border_hover: 2px solid #111;
+$btn_1_color_hover: #f5f5f5;
+
+// .a-btn-2 style
+$btn_2_bg_color: #5fbd42;
+$btn_2_border: 2px solid #111;
+$btn_2_color: #111;
+
+$btn_2_bg_color_hover: transparent;
+$btn_2_border_hover: 2px solid #111;
+$btn_2_color_hover: #111;
+
+// .a-btn-3 style
+$btn_3_bg_color: #5fbd42;
+$btn_3_border: 2px solid #5fbd42;
+$btn_3_color: #111;
+
+$btn_3_bg_color_hover: #f5f5f5;
+$btn_3_border_hover: 2px solid #f5f5f5;
+$btn_3_color_hover: #111;
+
+//
+// navigation style
+$nav_background_color: rgba(17,17,17,.7);
+$nav_background_color_scrolled: rgba(17,17,17,1);
+
+$nav_logo_img_height: 70px;
+$nav_logo_img_height_scrolled: 50px;
+
+$nav_tabs_color: #f5f5f5;
+$nav_tabs_color_hover: #5fbd42;
+
+$nav_socials_font_size_desktop: calc(.6rem + .6vw);
+$nav_socials_font_size_tablet: 1.1rem;
+
+//
+// turn animations (css) ON or OFF (1/0)
+$animations: 1;
+
+//
+// header style
+$header_bg_color: #111;
+$header_bg_img: url("../img/desk.webp");
+$header_bg_overlay: rgba(17,17,17,.5);
+$header_text_color: #f5f5f5;
+$header_text_shadow: 0 0 10px #111;
+$header_text_font_size: calc(3.375rem + 1.5vw);
+$header_text_font_size_767: calc(2.375rem + 1.5vw);
+$header_text_font_weight: bold;
+$header_scroll_indicator_color: #f5f5f5;
+
+//
+// main
+$main_h1_border_bottom: 5px solid #5fbd42;
+$main_bg_color: #f5f5f5;
+
+//
+/// sections
+
+// about section
+
+//
+/// footer
+$footer_bg_color: #111;
+$footer_text_color: #5fbd42;
+$footer_links_color: #5fbd42;
+$footer_links_color_hover: #f5f5f5;
+$footer_icon_font_size: 4rem;

@@ -1,0 +1,79 @@
+// styles for animating sections and elements
+
+@if ($animations == 1) {
+
+// cover element animation
+// section.cover-img-txt > div:first-of-type {
+//   will-change: transform, opacity;
+//   transition: all 1s ease-in-out;
+//   transform: translateY(-100%);
+//   opacity: 0;
+
+//   &[data-scroll="in"] {
+//     transform: translateY(0);
+//     opacity: 1;
+//   }
+// }
+
+.animation-slide-down {
+  will-change: transform, opacity;
+  transition: all 1s ease-in-out;
+  transform: translateY(-100%);
+  opacity: 0;
+
+  &[data-scroll="in"] {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animation-slide-up {
+  will-change: transform, opacity;
+  transition: all 1s ease-in-out;
+  transform: translateY(100%);
+  opacity: 0;
+
+  &[data-scroll="in"] {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animation-slide-right {
+  will-change: transform, opacity;
+  transition: all 1s ease-in-out;
+  transform: translateX(-50%);
+  opacity: 0;
+
+  &[data-scroll="in"] {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animation-slide-left {
+  will-change: transform, opacity;
+  transition: all 1s ease-in-out;
+  transform: translateX(90%);
+  opacity: 0;
+
+  &[data-scroll="in"] {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animation-scale-center {
+  will-change: transform, opacity;
+  transition: all 1s ease-in-out;
+  transform-origin: center;
+  transform: scale(0);
+  opacity: 0;
+
+  &[data-scroll="in"] {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+}
